@@ -21,7 +21,12 @@ class TicTacToe extends Utils {
             "data"      =>      []
         ];
         
-        //...
+        $input_size = $this->_post_args["size"];
+        $input_json = $this->_post_args["json"];
+        $input_play = $this->_post_args["play"];
+        
+        $input_isInit = (isset($input_size) && !empty($input_size) && empty($input_json) && empty($input_play));
+        $input_isPlay = (isset($input_json) && !empty($input_json) && isset($input_play) && !empty($input_play) && isset($input_size) && !empty($input_size));
         
         $this->output_json($obj);
     }
