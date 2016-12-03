@@ -32,6 +32,8 @@
 </head>
 
 <body id="page-top" class="index">
+    
+    <input type="hidden" value="" id="json">
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -71,11 +73,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="web/assets/bootstrap/img/profile.png" alt="">
+                    <div class="row">
+                        <div class="">
+                            <label class="">Size:</label>
+                            <input type="text" id="size" class="" value="3">
+                            <button id="init" class="btn btn-primary">Initialise</button>
+                        </div>
+                    </div>
+                    <table id="board">
+                        
+                    </table>
+<!--                    <img class="img-responsive" src="web/assets/bootstrap/img/profile.png" alt="">-->
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">Tic Tac Toe</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Play against an unbeatable artificial intelligence</span>
                     </div>
                 </div>
             </div>
