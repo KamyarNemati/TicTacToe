@@ -19,7 +19,7 @@ class Utils extends REST_Controller {
      * @param type $object
      * @author Kamyar
      */
-    public function output_json($obj) {
+    public function output_json(&$obj) {
         $this->output
                 ->set_content_type('application/json', 'utf-8')
                 ->set_output(json_encode($obj, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
