@@ -74,11 +74,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row">
-                        <div class="">
+                        <p class="">
                             <label class="">Size:</label>
-                            <input type="text" id="size" class="form-control" style="width: 135px !important; display: inline-block !important;" value="3">
+                            <input type="text" id="size" class="form-control" style="width: 128px !important; display: inline-block !important;" value="3">
                             <button id="init" class="btn btn-primary">Initialise</button>
-                        </div>
+                        </p>
                     </div>
                     <hr class="star-light">
                     <div class="row">
