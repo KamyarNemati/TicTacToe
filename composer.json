@@ -1,4 +1,4 @@
-{
+[{
 	"description": "The CodeIgniter framework",
 	"name": "codeigniter/framework",
 	"type": "project",
@@ -35,4 +35,4 @@
 	"support": {
 		"source": "https://github.com/chriskacerguis/codeigniter-restserver"
 	}
-}
+}]
