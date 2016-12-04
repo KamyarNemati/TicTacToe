@@ -43,7 +43,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Tic Tac Toe</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,17 +76,22 @@
                     <div class="row">
                         <div class="">
                             <label class="">Size:</label>
-                            <input type="text" id="size" class="" value="3">
+                            <input type="text" id="size" class="form-control" style="width: 135px !important; display: inline-block !important;" value="3">
                             <button id="init" class="btn btn-primary">Initialise</button>
                         </div>
                     </div>
-                    <table id="board">
-                        
-                    </table>
+                    <hr class="star-light">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <table id="board" style="margin: auto;">
+                            </table>
+                        </div>
+                    </div>
+                    <hr class="star-light">
 <!--                    <img class="img-responsive" src="web/assets/bootstrap/img/profile.png" alt="">-->
                     <div class="intro-text">
                         <span class="name">Tic Tac Toe</span>
-                        <hr class="star-light">
+                        <!--<hr class="star-light">-->
                         <span class="skills">Play against an unbeatable artificial intelligence</span>
                     </div>
                 </div>
@@ -542,6 +547,8 @@
 
     <!-- Theme JavaScript -->
     <script src="web/assets/bootstrap/js/freelancer.min.js"></script>
+    
+    <script src="web/js/tic_tac_toe.js"></script>
 
 </body>
 
